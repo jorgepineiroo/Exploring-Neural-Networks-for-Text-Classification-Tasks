@@ -97,13 +97,13 @@ We implement and compare three different neural network architectures:
 
 The plot shows the comparison between training and validation loss over epochs. The gradually decreasing curves indicate effective model learning, with minimal overfitting as both curves follow similar trends. The validation loss stabilizes around epoch 10, suggesting optimal model convergence.
 
-<img src="plots/FFNN_testval_loss.png" width="600"/>
+<img src="plots/FFNN_testval_loss.png" width="800"/>
 
 - **RNN**: Achieved similar accuracy to FFNN, showing that sequential processing provided minimal benefits for this task.
 
 The RNN model shows a more gradual decrease in both training and validation loss compared to the FFNN. While the model learns consistently, the validation loss exhibits some fluctuations, particularly after epoch 5, suggesting slightly less stable convergence than the FFNN model.
 
-<img src="plots/RNN_testval_loss.png" width="600"/>
+<img src="plots/RNN_testval_loss.png" width="800"/>
 
 - **LSTM**: Demonstrated lower performance and more overfitting compared to simpler models. Additional optimization needed.
 
@@ -115,7 +115,7 @@ The LSTM model shows slightly higher loss values compared to the FFNN and RNN mo
 4. Reduce model complexity
 5. Implement early stopping
 
-<img src="plots/LSTM_testval_loss.png" width="600"/>
+<img src="plots/LSTM_testval_loss.png" width="800"/>
 
 
 #### Observations
