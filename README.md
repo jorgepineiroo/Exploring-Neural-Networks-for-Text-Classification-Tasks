@@ -17,20 +17,20 @@ The AG_NEWS dataset contains news articles grouped into four categories:
 
 Analyzing the class distribution in the training set reveals that the dataset is relatively balanced, with each category containing approximately 30,000 samples.
 
-<img src="plots/classes.png" width="600"/>
+<img src="plots/classes.png" width="1000"/>
 
 
 #### Distribution of Text Lengths
 
 We examine the length of the news articles by calculating the number of characters in each text. The majority of articles have lengths ranging from 100 to 500 characters, indicating that most articles are concise.
 
-<img src="plots/text_length.png" width="600"/>
+<img src="plots/text_length.png" width="1000"/>
 
 #### Most Common Words in the Dataset
 
 After tokenizing the text, we identify the most frequently occurring words. Common words include typical stopwords such as "the," "to," "and," "of," and "in." These words are often less informative for classification purposes.
 
-<img src="plots/common_words.png" width="600"/>
+<img src="plots/common_words.png" width="1000"/>
 
 ## Part 2: Preprocessing
 
