@@ -17,20 +17,20 @@ The AG_NEWS dataset contains news articles grouped into four categories:
 
 Analyzing the class distribution in the training set reveals that the dataset is relatively balanced, with each category containing approximately 30,000 samples.
 
-<img src="plots/classes.png" width="1000"/>
+<img src="plots/classes.png" width="600"/>
 
 
 #### Distribution of Text Lengths
 
 We examine the length of the news articles by calculating the number of characters in each text. The majority of articles have lengths ranging from 100 to 500 characters, indicating that most articles are concise.
 
-<img src="plots/text_length.png" width="1000"/>
+<img src="plots/text_length.png" width="600"/>
 
 #### Most Common Words in the Dataset
 
 After tokenizing the text, we identify the most frequently occurring words. Common words include typical stopwords such as "the," "to," "and," "of," and "in." These words are often less informative for classification purposes.
 
-<img src="plots/common_words.png" width="1000"/>
+<img src="plots/common_words.png" width="600"/>
 
 ## Part 2: Preprocessing
 
@@ -97,13 +97,13 @@ We implement and compare three different neural network architectures:
 
 The plot shows the comparison between training and validation loss over epochs. The gradually decreasing curves indicate effective model learning, with minimal overfitting as both curves follow similar trends. The validation loss stabilizes around epoch 10, suggesting optimal model convergence.
 
-<img src="plots/FFNN_testval_loss.png" width="800"/>
+<img src="plots/FFNN_testval_loss.png" width="1000"/>
 
 - **RNN**: Achieved similar accuracy to FFNN, showing that sequential processing provided minimal benefits for this task.
 
 The RNN model shows a more gradual decrease in both training and validation loss compared to the FFNN. While the model learns consistently, the validation loss exhibits some fluctuations, particularly after epoch 5, suggesting slightly less stable convergence than the FFNN model.
 
-<img src="plots/RNN_testval_loss.png" width="800"/>
+<img src="plots/RNN_testval_loss.png" width="1000"/>
 
 - **LSTM**: Demonstrated lower performance and more overfitting compared to simpler models. Additional optimization needed.
 
@@ -115,7 +115,7 @@ The LSTM model shows slightly higher loss values compared to the FFNN and RNN mo
 4. Reduce model complexity
 5. Implement early stopping
 
-<img src="plots/LSTM_testval_loss.png" width="800"/>
+<img src="plots/LSTM_testval_loss.png" width="1000"/>
 
 
 #### Observations
