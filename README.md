@@ -17,7 +17,7 @@ The AG_NEWS dataset contains news articles grouped into four categories:
 
 Analyzing the class distribution in the training set reveals that the dataset is relatively balanced, with each category containing approximately 30,000 samples.
 
-!(plots/classes.png)
+![](plots/classes.png)
 
 
 #### Distribution of Text Lengths
