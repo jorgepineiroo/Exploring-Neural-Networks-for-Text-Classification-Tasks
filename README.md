@@ -137,7 +137,7 @@ Key takeaways:
 
 ### References
 
-- **AG_NEWS Dataset**: [TorchText Documentation](https://pytorch.org/text/datasets.html#ag-news)
+- **AG_NEWS Dataset**: [TorchText Documentation](https://pytorch.org/text/0.12.0/datasets.html#ag-news)
 - **GloVe Embeddings**: [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/)
 - **PyTorch**: [PyTorch Official Website](https://pytorch.org/)
 - **NLTK**: [Natural Language Toolkit](https://www.nltk.org/)
